@@ -1,0 +1,577 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delta N. Asterling A. F. - Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="light-mode">
+    <!-- Header -->
+    <header id="main-header">
+        <div class="header-left">
+            <div class="brand">
+                <div class="green-circle"></div>
+                <div class="brand-text">
+                    <h1 class="brand-name">Delta N. Asterling A. F.</h1>
+                    <span class="brand-tagline" data-language="tagline">MULTIDISCIPLINARY LANGUAGE PROFESSIONAL</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="header-right">
+            <nav>
+                <ul>
+                    <li><a href="#home" data-language="nav_home">Home</a></li>
+                    <li><a href="#about" data-language="nav_about">About</a></li>
+                    <li><a href="#portfolio" data-language="nav_portfolio">Portfolio</a></li>
+                    <li><a href="#consultancy" data-language="nav_consultancy">Consultancy</a></li>
+                </ul>
+            </nav>
+
+            <div class="controls">
+                <!-- Theme Toggle -->
+                <button id="theme-toggle" class="control-btn" aria-label="Toggle Theme">
+                    <svg id="moon-icon" viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor"
+                        stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun-icon" viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor"
+                        stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="display: none;">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+
+                <!-- Language Selector -->
+                <div class="lang-selector">
+                    <button id="lang-btn" class="control-btn lang-btn" aria-label="Select Language">
+                        <img src="assets/svg/flags/united_states.svg" alt="EN" class="flag-icon">
+                    </button>
+                    <ul id="lang-menu" class="dropdown hidden">
+                        <li data-lang="ca">
+                            <img src="assets/svg/flags/catalonia.svg" alt="CA" class="flag-icon">
+                            <span>Català</span>
+                        </li>
+                        <li data-lang="de">
+                            <img src="assets/svg/flags/germany.svg" alt="DE" class="flag-icon">
+                            <span>Deutsch</span>
+                        <li data-lang="en">
+                            <img src="assets/svg/flags/united_states.svg" alt="EN" class="flag-icon">
+                            <span>English</span>
+                        </li>
+                        <li data-lang="es">
+                            <img src="assets/svg/flags/spain.svg" alt="ES" class="flag-icon">
+                            <span>Español</span>
+                        </li>
+                        <li data-lang="fr">
+                            <img src="assets/svg/flags/france.svg" alt="FR" class="flag-icon">
+                            <span>Français</span>
+                        </li>
+                        </li>
+                        <li data-lang="pt">
+                            <img src="assets/svg/flags/brazil.svg" alt="PT" class="flag-icon">
+                            <span>Português</span>
+                        </li>
+                        <li data-lang="ru">
+                            <img src="assets/svg/flags/russia.svg" alt="RU" class="flag-icon">
+                            <span>Русский</span>
+                        </li>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero-section">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h2 class="greeting" data-language="hero_greeting">Welcome, I'm</h2>
+                    <h1 class="hero-name">Delta N. Asterling A. F.</h1>
+                    <p class="hero-desc" data-language="hero_desc">
+                        Multilingual contract & localization specialist with expertise in legal international
+                        documentation, cross-border publishing and multilingual administrative coordination.
+                    </p>
+                    <div class="hero-actions">
+                        <a href="#portfolio" class="btn outline" data-language="btn_portfolio">Portfolio</a>
+                        <a href="assets/pdf/delta_fonseca.pdf" target="_blank" class="btn primary">
+                            <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor"
+                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                style="vertical-align: middle; margin-right: 6px;">
+                                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                                <polyline points="7 10 12 15 17 10"></polyline>
+                                <line x1="12" y1="15" x2="12" y2="3"></line>
+                            </svg>
+                            <span data-language="btn_resume">Resume</span>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="hero-image-wrapper">
+                    <div class="wave-container">
+                        <img src="assets/png/picture.jpeg" alt="Delta N. Asterling A. F." class="profile-photo"
+                            id="profile-img">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- About Section -->
+        <section id="about" class="about-section">
+            <div class="about-container">
+                <h2 class="section-title" data-language="title_about">ABOUT ME</h2>
+                <div class="about-grid">
+                    <div class="about-card">
+                        <div class="about-card-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor"
+                                class="bi bi-paperclip" viewBox="0 0 16 16">
+                                <path
+                                    d="M4.5 3a2.5 2.5 0 0 1 5 0v9a1.5 1.5 0 0 1-3 0V5a.5.5 0 0 1 1 0v7a.5.5 0 0 0 1 0V3a1.5 1.5 0 1 0-3 0v9a2.5 2.5 0 0 0 5 0V5a.5.5 0 0 1 1 0v7a3.5 3.5 0 1 1-7 0z" />
+                            </svg>
+
+                        </div>
+                        <h3 data-language="about_administration_title">Administration</h3>
+                        <p data-language="about_administration_desc">Experience in multilingual administrative
+                            coordination, supporting cross-border communication, intermediary documentation processes,
+                            and maintaining terminological consistency across international operations.
+                        </p>
+                    </div>
+                    <div class="about-card">
+                        <div class="about-card-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor"
+                                class="bi bi-braces" viewBox="0 0 16 16">
+                                <path
+                                    d="M2.114 8.063V7.9c1.005-.102 1.497-.615 1.497-1.6V4.503c0-1.094.39-1.538 1.354-1.538h.273V2h-.376C3.25 2 2.49 2.759 2.49 4.352v1.524c0 1.094-.376 1.456-1.49 1.456v1.299c1.114 0 1.49.362 1.49 1.456v1.524c0 1.593.759 2.352 2.372 2.352h.376v-.964h-.273c-.964 0-1.354-.444-1.354-1.538V9.663c0-.984-.492-1.497-1.497-1.6M13.886 7.9v.163c-1.005.103-1.497.616-1.497 1.6v1.798c0 1.094-.39 1.538-1.354 1.538h-.273v.964h.376c1.613 0 2.372-.759 2.372-2.352v-1.524c0-1.094.376-1.456 1.49-1.456V7.332c-1.114 0-1.49-.362-1.49-1.456V4.352C13.51 2.759 12.75 2 11.138 2h-.376v.964h.273c.964 0 1.354.444 1.354 1.538V6.3c0 .984.492 1.497 1.497 1.6" />
+                            </svg>
+                        </div>
+                        <h3 data-language="about_automation_title">Automation</h3>
+                        <p data-language="about_automation_desc">Design and implementation of structured automation
+                            systems aimed at reducing manual workload and improving efficiency in administrative and
+                            documentation processes within multilingual environments.</p>
+                    </div>
+                    <div class="about-card">
+                        <div class="about-card-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor"
+                                class="bi bi-file-earmark-medical-fill" viewBox="0 0 16 16">
+                                <path
+                                    d="M9.293 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V4.707A1 1 0 0 0 13.707 4L10 .293A1 1 0 0 0 9.293 0M9.5 3.5v-2l3 3h-2a1 1 0 0 1-1-1m-3 2v.634l.549-.317a.5.5 0 1 1 .5.866L7 7l.549.317a.5.5 0 1 1-.5.866L6.5 7.866V8.5a.5.5 0 0 1-1 0v-.634l-.549.317a.5.5 0 1 1-.5-.866L5 7l-.549-.317a.5.5 0 0 1 .5-.866l.549.317V5.5a.5.5 0 1 1 1 0m-2 4.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1 0-1m0 2h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1 0-1" />
+                            </svg>
+                        </div>
+                        <h3 data-language="about_contract_engineering_title">Contract Engineering</h3>
+                        <p data-language="about_contract_engineering_desc">Development and refinement of multilingual
+                            contractual structures for cross-border agreements, with emphasis on clarity,
+                            enforceability and consistency across different jurisdictions.</p>
+                    </div>
+
+                    <div class="about-card">
+                        <div class="about-card-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor"
+                                class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+                                <path
+                                    d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10m0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6" />
+                            </svg>
+                        </div>
+                        <h3 data-language="about_localization_title">Localization</h3>
+                        <p data-language="about_localization_desc">Adaptation and localization of legal, administrative
+                            and publishing documentation for international and national contexts, ensuring linguistic
+                            accuracy and cultural coherence.
+                        </p>
+                    </div>
+
+                    <div class="about-card">
+                        <div class="about-card-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor"
+                                class="bi bi-newspaper" viewBox="0 0 16 16">
+                                <path
+                                    d="M0 2.5A1.5 1.5 0 0 1 1.5 1h11A1.5 1.5 0 0 1 14 2.5v10.528c0 .3-.05.654-.238.972h.738a.5.5 0 0 0 .5-.5v-9a.5.5 0 0 1 1 0v9a1.5 1.5 0 0 1-1.5 1.5H1.497A1.497 1.497 0 0 1 0 13.5zM12 14c.37 0 .654-.211.853-.441.092-.106.147-.279.147-.531V2.5a.5.5 0 0 0-.5-.5h-11a.5.5 0 0 0-.5.5v11c0 .278.223.5.497.5z" />
+                                <path
+                                    d="M2 3h10v2H2zm0 3h4v3H2zm0 4h4v1H2zm0 2h4v1H2zm5-6h2v1H7zm3 0h2v1h-2zM7 8h2v1H7zm3 0h2v1h-2zm-3 2h2v1H7zm3 0h2v1h-2zm-3 2h2v1H7zm3 0h2v1h-2z" />
+                            </svg>
+                        </div>
+                        <h3 data-language="about_multichannel_operations_title">Multichannel Operations</h3>
+                        <p data-language="about_multichannel_operations_desc">Coordination of content publication across
+                            multiple digital channels, ensuring consistent deployment and specific adaptations
+                            while applying
+                            multichannel localization where required.
+                        </p>
+                    </div>
+
+                    <div class="about-card">
+                        <div class="about-card-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor"
+                                class="bi bi-bar-chart-line-fill" viewBox="0 0 16 16">
+                                <path
+                                    d="M11 2a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v12h.5a.5.5 0 0 1 0 1H.5a.5.5 0 0 1 0-1H1v-3a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v3h1V7a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v7h1z" />
+                            </svg>
+                        </div>
+                        <h3 data-language="about_sales_operations_title">Sales Operations</h3>
+                        <p data-language="about_sales_operations_desc">Management of structured sales funnels, invoice
+                            workflows and direct sales communication to support secure transactions and
+                            efficient client onboarding.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Portfolio Section -->
+        <section id="portfolio" class="portfolio-section">
+            <h2 class="section-title" data-language="title_portfolio">PORTFOLIO</h2>
+
+            <div class="projects-grid">
+                <div class="project-card holding-card">
+                    <div class="project-logo">
+                        <img src="assets/svg/grapexagon.svg" alt="GrapeXagon Logo">
+                    </div>
+
+                    <div class="project-info">
+                        <h3>
+                            GrapeXagon
+                            <span class="badge" data-language="badge_holding">Holding Agency</span>
+                        </h3>
+                        <p class="project-desc" data-language="grape_desc">
+                            GrapeXagon is an emerging holding agency designed to develop and coordinate interconnected
+                            digital platforms, establishing the operational, structural, and strategic framework for
+                            scalable online ventures.
+                        </p>
+
+                        <div class="subsidiaries">
+                            <img src="assets/svg/BananoXagon.svg" alt="BananoXagon Logo" class="sub-logo"
+                                title="BananoXagon">
+                            <img src="assets/svg/HoneXagon.svg" alt="HoneXagon Logo" class="sub-logo" title="HoneXagon">
+                        </div>
+
+                        <a href="https://bananoxagon.com" class="btn outline mt-4" data-language="btn_learn_more">Learn
+                            More</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Languages Section -->
+        <section id="languages" class="languages-section">
+            <h2 class="section-title" data-language="title_languages">LANGUAGES</h2>
+
+            <div class="languages-container">
+                <!-- Català -->
+                <div class="language-item">
+                    <div class="language-header">
+                        <div class="language-title">
+                            <img src="assets/svg/flags/catalonia.svg" alt="EN" class="flag-icon">
+                            <span class="language-name">Català</span>
+                        </div>
+                        <span class="language-level">B1</span>
+                    </div>
+                    <div class="language-bar">
+                        <div class="language-blocks">
+                            <div class="block filled"></div>
+                            <div class="block filled"></div>
+                            <div class="block filled"></div>
+                            <div class="block filled"></div>
+                            <div class="block"></div>
+                            <div class="block"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Deutsch -->
+                <div class="language-item">
+                    <div class="language-header">
+                        <div class="language-title">
+                            <img src="assets/svg/flags/germany.svg" alt="DE" class="flag-icon">
+                            <span class="language-name">Deutsch</span>
+                        </div>
+                        <span class="language-level">B1</span>
+                    </div>
+                    <div class="language-bar">
+                        <div class="language-blocks">
+                            <div class="block filled"></div>
+                            <div class="block filled"></div>
+                            <div class="block filled"></div>
+                            <div class="block"></div>
+                            <div class="block"></div>
+                            <div class="block"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- English -->
+                <div class="language-item">
+                    <div class="language-header">
+                        <div class="language-title">
+                            <img src="assets/svg/flags/united_states.svg" alt="EN" class="flag-icon">
+                            <span class="language-name">English</span>
+                        </div>
+                        <span class="language-level">C2</span>
+                    </div>
+                    <div class="language-bar">
+                        <div class="language-blocks">
+                            <div class="block filled"></div>
+                            <div class="block filled"></div>
+                            <div class="block filled"></div>
+                            <div class="block filled"></div>
+                            <div class="block filled"></div>
+                            <div class="block filled"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Español -->
+                <div class="language-item">
+                    <div class="language-header">
+                        <div class="language-title">
+                            <img src="assets/svg/flags/spain.svg" alt="ES" class="flag-icon">
+                            <span class="language-name">Español</span>
+                        </div>
+                        <span class="language-level">C2</span>
+                    </div>
+                    <div class="language-bar">
+                        <div class="language-blocks">
+                            <div class="block filled"></div>
+                            <div class="block filled"></div>
+                            <div class="block filled"></div>
+                            <div class="block filled"></div>
+                            <div class="block filled"></div>
+                            <div class="block filled"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Français -->
+                <div class="language-item">
+                    <div class="language-header">
+                        <div class="language-title">
+                            <img src="assets/svg/flags/france.svg" alt="FR" class="flag-icon">
+                            <span class="language-name">Français</span>
+                        </div>
+                        <span class="language-level">B1</span>
+                    </div>
+                    <div class="language-bar">
+                        <div class="language-blocks">
+                            <div class="block filled"></div>
+                            <div class="block filled"></div>
+                            <div class="block filled"></div>
+                            <div class="block"></div>
+                            <div class="block"></div>
+                            <div class="block"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Portuguese -->
+                <div class="language-item">
+                    <div class="language-header">
+                        <div class="language-title">
+                            <img src="assets/svg/flags/brazil.svg" alt="BR" class="flag-icon">
+                            <span class="language-name">Português</span>
+                        </div>
+                        <span class="language-level">C2</span>
+                    </div>
+                    <div class="language-bar">
+                        <div class="language-blocks">
+                            <div class="block filled"></div>
+                            <div class="block filled"></div>
+                            <div class="block filled"></div>
+                            <div class="block filled"></div>
+                            <div class="block filled"></div>
+                            <div class="block filled"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Русский -->
+                <div class="language-item">
+                    <div class="language-header">
+                        <div class="language-title">
+                            <img src="assets/svg/flags/russia.svg" alt="RU" class="flag-icon">
+                            <span class="language-name">Русский</span>
+                        </div>
+                        <span class="language-level">B2</span>
+                    </div>
+                    <div class="language-bar">
+                        <div class="language-blocks">
+                            <div class="block filled"></div>
+                            <div class="block filled"></div>
+                            <div class="block filled"></div>
+                            <div class="block filled"></div>
+                            <div class="block"></div>
+                            <div class="block"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Consultancy Section -->
+        <section id="consultancy" class="consultancy-section">
+            <div class="consultancy-card">
+                <h2 class="section-title" data-language="title_consultancy">CONSULTANCY</h2>
+                <p class="consultancy-subtitle" data-language="consultancy_desc">
+                    Looking for expertise in workflow automation or contract engineering? Let's talk.
+                </p>
+
+                <form id="proposal-form" class="proposal-form" novalidate>
+                    <!-- Individual Fields -->
+                    <div id="individual-fields" class="name-fields">
+                        <div class="form-row">
+                            <div class="form-group half">
+                                <label for="name" data-language="form_name">Name</label>
+                                <input type="text" id="name" name="name" class="form-input">
+                            </div>
+                            <div class="form-group half">
+                                <label for="surname" data-language="form_surname">Surname</label>
+                                <input type="text" id="surname" name="surname" class="form-input">
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Company Field -->
+                    <div id="company-field" class="form-group hidden">
+                        <label for="company-name" data-language="form_company_name">Company's Name</label>
+                        <input type="text" id="company-name" name="company_name" class="form-input">
+                    </div>
+
+                    <!-- Company Checkbox -->
+                    <div class="form-group checkbox-group">
+                        <label class="checkbox-label">
+                            <input type="checkbox" id="is-company" name="is_company">
+                            <span class="checkmark"></span>
+                            <span data-language="form_company_check">Company?</span>
+                        </label>
+                    </div>
+
+                    <!-- Email Field -->
+                    <div class="form-group">
+                        <label for="email" data-language="form_email">E-mail</label>
+                        <input type="email" id="email" name="email" class="form-input" required>
+                    </div>
+
+                    <!-- Phone Checkbox -->
+                    <div class="form-group checkbox-group">
+                        <label class="checkbox-label">
+                            <input type="checkbox" id="add-phone" name="add_phone">
+                            <span class="checkmark"></span>
+                            <span data-language="form_phone_check">Add number?</span>
+                        </label>
+                    </div>
+
+                    <!-- Phone Field -->
+                    <div id="phone-field" class="form-group hidden">
+                        <label data-language="form_phone">Phone Number</label>
+                        <div class="phone-input-container">
+                            <input type="text" id="phone-country" placeholder="+..." maxlength="3"
+                                class="form-input country-code">
+                            <input type="text" id="phone-state" placeholder="(...)" maxlength="4"
+                                class="form-input state-number">
+                            <input type="tel" id="phone-number" placeholder="..." class="form-input main-number"
+                                maxlength="14">
+                        </div>
+                    </div>
+
+                    <!-- Message Field -->
+                    <div class="form-group">
+                        <label for="message" data-language="form_message">Proposal</label>
+                        <textarea id="message" name="message" rows="5" class="form-input" required></textarea>
+                    </div>
+
+                    <!-- reCAPTCHA -->
+                    <div class="g-recaptcha" data-sitekey="6LcHa4MsAAAAAEYeTrrXsQGGOl_t5bBMOe1vDX5L"></div>
+
+                    <!-- Submit Button -->
+                    <button type="submit" class="btn primary full-width" data-language="form_submit">
+                        Send Proposal
+                    </button>
+
+                    <!-- Form Feedback -->
+                    <div id="form-feedback" class="hidden" data-language="form_success">
+                        Proposal sent successfully!
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer id="main-footer">
+        <div class="footer-content">
+            <!-- Phone -->
+            <div class="footer-col contact-col">
+                <div class="contact-item">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor"
+                        class="bi bi-telephone-fill" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd"
+                            d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.68.68 0 0 0 .178.643l2.457 2.457a.68.68 0 0 0 .644.178l2.189-.547a1.75 1.75 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.6 18.6 0 0 1-7.01-4.42 18.6 18.6 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877z" />
+                    </svg>
+                    <div class="contact-info">
+                        <h4 data-language="footer_phone">Phone</h4>
+                        <a href="tel:+5541987105225">+55 (41) 98710-5225</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Email -->
+            <div class="footer-col contact-col">
+                <div class="contact-item">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor"
+                        class="bi bi-envelope-fill" viewBox="0 0 16 16">
+                        <path
+                            d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414zM0 4.697v7.104l5.803-3.558zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586zm3.436-.586L16 11.801V4.697z" />
+                    </svg>
+                    <div class="contact-info">
+                        <h4 data-language="footer_email">E-mail</h4>
+                        <a href="mailto:consultancy@deltaasterling.com">consultancy@deltaasterling.com</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- LinkedIn -->
+            <div class="footer-col contact-col">
+                <div class="contact-item">
+                    <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor">
+                        <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 
+                                 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 
+                                 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 
+                                 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 
+                                 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" />
+                    </svg>
+                    <div class="contact-info">
+                        <h4 data-language="footer_follow">LinkedIn</h4>
+                        <a href="https://linkedin.com/in/deltaasterling" target="_blank" rel="noopener noreferrer">
+                            linkedin.com/in/deltaasterling
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Copyright -->
+            <div class="footer-col copyright-col">
+                <p>&copy; <span id="year"></span>
+                    <span data-language="footer_rights">by Delta N. Asterling A. F.</span>
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+    <script src="js/language.js"></script>
+    <script src="js/dataFlux.js"></script>
+    <script src="js/languageSwitch.js"></script>
+    <script src="js/themeSwitch.js"></script>
+    <script src="js/interactions.js"></script>
+</body>
+
+</html>

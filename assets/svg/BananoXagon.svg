@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="2519mm"
+   height="4096mm"
+   viewBox="0 0 2519 4096"
+   version="1.1"
+   id="svg1"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showguides="true"
+     inkscape:lockguides="false">
+    <inkscape:page
+       x="0"
+       y="0"
+       width="2519"
+       height="4096"
+       id="page2"
+       margin="0"
+       bleed="0" />
+  </sodipodi:namedview>
+  <defs
+     id="defs1">
+    <linearGradient
+       id="linearGradient27"
+       inkscape:collect="always">
+      <stop
+         style="stop-color:#ffc000;stop-opacity:1;"
+         offset="0"
+         id="stop27" />
+      <stop
+         style="stop-color:#c2b280;stop-opacity:1;"
+         offset="1"
+         id="stop28" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient27"
+       id="linearGradient28"
+       x1="6.6145835"
+       y1="4656.6665"
+       x2="2869.4258"
+       y2="0"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.87798099,0,0,0.87798099,-1.1999998e-7,7.49e-6)" />
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       id="path16-4-8-7-7"
+       style="baseline-shift:baseline;display:inline;overflow:visible;opacity:1;vector-effect:none;fill:url(#linearGradient28);fill-opacity:1;stroke-width:0.877981;stroke-linecap:round;stroke-linejoin:round;enable-background:accumulate;stop-color:#000000;stop-opacity:1"
+       d="M 721.19627,0 A 182.76037,182.76037 0 0 0 629.82602,24.480785 L 91.3716,335.35601 A 182.76037,182.76037 0 0 0 0,493.61571 v 621.75459 a 182.76037,182.76037 0 0 0 91.3716,158.2576 L 355.71302,1426.2458 91.3716,1578.8638 A 182.76037,182.76037 0 0 0 0,1737.1228 v 621.7533 a 182.76037,182.76037 0 0 0 91.3716,158.2593 L 355.71302,2669.7531 91.3716,2822.3709 A 182.76037,182.76037 0 0 0 0,2980.6306 v 621.7527 a 182.76037,182.76037 0 0 0 91.3716,158.2597 l 538.45442,310.8771 a 182.76037,182.76037 0 0 0 182.74184,0 L 1351.0223,3760.643 a 182.76037,182.76037 0 0 0 91.3703,-158.2597 v -305.2347 l 264.341,152.617 a 182.76037,182.76037 0 0 0 182.7431,0 l 538.4545,-310.8758 a 182.76037,182.76037 0 0 0 91.3702,-158.2592 v -621.7545 a 182.74209,182.74209 0 0 0 -91.3702,-158.2598 l -264.3411,-152.6168 264.3411,-152.6169 a 182.76037,182.76037 0 0 0 91.3702,-158.2598 v -621.7525 a 182.74209,182.74209 0 0 0 -42.7534,-117.46575 182.74209,182.74209 0 0 0 -22.524,-22.52447 182.74209,182.74209 0 0 0 -26.0928,-18.26901 L 1889.4767,646.23352 a 182.76037,182.76037 0 0 0 -91.3714,-24.48082 182.76037,182.76037 0 0 0 -91.3717,24.48082 l -264.341,152.61782 V 493.61571 a 182.74209,182.74209 0 0 0 -91.3703,-158.2597 L 812.56786,24.480785 A 182.76037,182.76037 0 0 0 721.19627,0 Z m 0,393.75202 355.71263,205.37059 V 1009.8633 L 721.19627,1215.2334 365.48368,1009.8633 V 599.12261 Z m 1076.90903,621.75318 355.7125,205.3701 v 410.7408 l -355.7125,205.3705 -447.083,-258.1228 v -10e-4 l -264.3386,-152.6159 264.3386,-152.6161 v 0 a 182.74209,182.74209 0 0 0 0,-8e-4 z m -1076.90903,621.7527 355.71263,205.3719 v 410.7407 L 721.19627,2458.7412 365.48368,2253.3705 v -410.7407 z m 1076.90903,621.7545 355.7125,205.3707 v 410.7406 l -355.7125,205.3703 -447.083,-258.1231 v -8e-4 l -264.3386,-152.616 264.3401,-152.6168 a 182.74209,182.74209 0 0 0 0,-9e-4 z m -1076.90903,621.7528 355.71263,205.3723 v 410.7389 l -355.71263,205.372 -355.71259,-205.372 v -410.7407 z" />
+  </g>
+</svg>
